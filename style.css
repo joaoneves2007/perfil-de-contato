@@ -184,3 +184,41 @@ footer a:hover {
   color: var(--stroke-color);
   text-decoration: none;
 }
+
+/* Media Queries */
+@media(min-width:768px) {
+    :root {
+        --bg--ur: url(./assets/bg-desktop.png);
+
+        ul li a ion-icon {
+            width: 40px;
+            height: 40px;
+            
+        }
+    }
+
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
+}
+
+/* Animation */
+@keyframes slide-in {
+    from {
+        left: 0;
+
+    }
+    to{
+        left: 50%;
+    }
+}
+
+@keyframes slide-in {
+    from {
+        left: 50%;
+
+    }
+    to{
+        left: 0%;
+    }
+}
